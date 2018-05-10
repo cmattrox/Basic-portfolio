@@ -1,8 +1,66 @@
 h1 {
+    font-size: 30px;
     background-color: #4aaaa5;
     color: white;
+    float: left;
+    padding: 15px 10px 15px 10px;
+
+}
+header{
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+}
+header.container{
+    width: 960px;
+    margin: 0 auto;
+    clear: left;
+}
+
+
+li a{
+    display: block;
+    width: 60px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px 40px 20px 40px;
+    float: right;
+    box-sizing: border-box;
+    color: grey;
+    border-right-color: grey;
 }
 h2{
     color: #4aaaa5;
+    clear: left;
+}
+ul{
+    list-style-type: none;
+}
+
+#profpic{
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+.portpic{
+    width: 150px;
+}
+footer{
+    background-color: #666666;
+    color: white;
+    width: 960px;
+    height: 30px;
+    clear: left;
+    text-align: center;
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+#foottext{
+    vertical-align: text-bottom;
+
+}
+body{
+    background-color: #ffffff;
+    width: 960px;
+    height: 960px;
 }
