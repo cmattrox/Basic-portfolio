@@ -1,6 +1,7 @@
 *{
     width: 100%;
 }
+
 h1 {
     font-size: 30px;
     background-color: #4aaaa5;
@@ -9,44 +10,53 @@ h1 {
     width: 190px;
     float: left;
 }
+
 header{
     border-bottom: 2px solid #cccccc;
     background-color: #ffffff;
     width: 100%;
     position: absolute;
 }
+
 nav{
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-bottom: 10px;
-    margin-right: 0 auto;
+    margin-left: 669px;
+    padding-top: 25px;
 }
+
 #about{
     padding: 10px 20px 10px 20px;
     color: grey;
+    border-right: 2px solid #cccccc;
 }
+
 #portfolio{
     padding: 10px 20px 10px 20px;
     color: grey;
+    border-right: 2px solid #cccccc
 }
+
 #contact{
     padding: 10px 20px 10px 20px;
     color: grey;
 }
+
 h2{
     color: #4aaaa5;
     font-size: 30px;
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-ul{
-    list-style-type: none;
-}
+
 #profpic{
     width: 200px;
     height: 250px;
 }
+
 .portpic{
     width: 150px;
 }
+
 footer{
     background-color: #666666;
     color: white;
@@ -62,18 +72,26 @@ footer{
     width: 100%;
 }
 body{
-    background-color: #ffffff;
+    background-image: url("../images/ep_naturalwhite/back.png")
+
 }
+
 p{
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
 }
+
 #container_2{
     border: 2px solid #dddddd;
+    margin-top: 200px;
     margin:0 auto;
     width: 960px;
+    background-color: #ffffff;
 }
+
 .container_1{
     margin: 0 auto;
     width: 960px;
+    background-color: #ffffff;
 }
+
